@@ -31,7 +31,7 @@ class ChildStructureTest {
                 .age(1)
                 .children(Children.builder()
                         .childType(Arrays.asList(
-//                                ChildType.builder().childTypeName(ChildTypeName.SHORT).flag(true).build(),
+                                ChildType.builder().childTypeName(ChildTypeName.SHORT).flag(true).build(),
                                 ChildType.builder().childTypeName(ChildTypeName.SLIM).flag(true).build(),
                                 ChildType.builder().childTypeName(ChildTypeName.TALL).flag(true).build())).build())
                 .build();
